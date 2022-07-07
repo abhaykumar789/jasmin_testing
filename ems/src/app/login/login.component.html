@@ -1,0 +1,18 @@
+<p>login component path set to home page</p>
+
+{{name}}
+
+<h2>Hii there!</h2>
+
+<h3 class="g1">Good Afternoon</h3>
+<hr />
+<h4>REACTIVE FORM</h4>
+<form [formGroup]="myform">
+  <input type="text" formControlName="uname" id="uname"><br />
+  <input type="password" formControlName="pwd" id="pwd"><br />
+
+  <input type="button" (click)="check()" value="LOGIN">
+</form>
+
+<hr />
+
